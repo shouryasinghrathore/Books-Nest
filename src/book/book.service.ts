@@ -27,7 +27,6 @@ export class BookService {
         if (!book) {
             throw new NotFoundException("Book not found")
         }
-
         return book;
     }
 
